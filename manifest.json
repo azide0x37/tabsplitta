@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TabSplitta",
+  "version": "1.0",
+  "description": "Move the current tab and all tabs to the right of it to a new separate window.",
+  "icons": {
+    "48": "icon48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icon48.png"
+    },
+    "default_title": "TabSplitta"
+  },
+  "permissions": ["tabs"]
+}
